@@ -97,6 +97,9 @@ body {
 .offcanvas-title{
     color: #fff;
 }
+.offcanvas{
+    background-color: #556b2f;
+}
 
 /* Style pour l'image */
 /* Style pour l'image avec effet d'ombre */

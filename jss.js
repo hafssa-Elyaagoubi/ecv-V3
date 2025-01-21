@@ -40,9 +40,9 @@ if (language === "fr") {
 
     // select
     document.getElementById("languageSelect").innerHTML =
-        '<option value="fr">Français</option>'+
-        '<option value="en">Anglais</option>'+
-        '<option value="es">Espagnol</option>';
+        '<option value="fr">French</option>'+
+        '<option value="en">English</option>'+
+        '<option value="es">Spanish</option>';
 
     // Home
     document.getElementById("greeting").textContent = "SALUT!";
@@ -127,9 +127,9 @@ if (language === "fr") {
 
             // select
             document.getElementById("languageSelect").innerHTML =
-                '<option value="es">Español</option>'+
-                '<option value="en">Inglés</option>'+
-                '<option value="fr">Francés</option>';
+                '<option value="es">Spanish</option>'+
+                '<option value="en">English</option>'+
+                '<option value="fr">French</option>';
     
             // Home
             document.getElementById("greeting").textContent = "¡HOLA!";
