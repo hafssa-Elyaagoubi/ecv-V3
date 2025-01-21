@@ -84,9 +84,9 @@ if (language === "fr") {
         "<li>Prise de parole en public et défense des intérêts.</li>" +
         "<li>Publicité et monétisation des revenus.</li>";
     document.getElementById("languagesList").innerHTML = 
-        '<li>Anglais <span class="circle level"></span><span class="circle level"></span><span class="circle level"></span><span class="circle level"></span><span class="circle level"></span></li>'+
-        '<li>Français <span class="circle level"></span><span class="circle level"></span><span class="circle level"></span><span class="circle level"></span><span class="circle level-em"></span></li>'+
-        '<li>Espagnol <span class="circle level"></span><span class="circle level"></span><span class="circle level-em"></span><span class="circle level-em"></span><span class="circle level-em"></span></li>';
+        '<li id="en">Anglais <span class="circle level"></span><span class="circle level"></span><span class="circle level"></span><span class="circle level"></span><span class="circle level"></span></li>'+
+        '<li id="fr">Français <span class="circle level"></span><span class="circle level"></span><span class="circle level"></span><span class="circle level"></span><span class="circle level-em"></span></li>'+
+        '<li id="sp">Espagnol <span class="circle level"></span><span class="circle level"></span><span class="circle level-em"></span><span class="circle level-em"></span><span class="circle level-em"></span></li>';
     document.getElementById("projectsList").innerHTML = 
         "<li>Mouvement Lean In : Renforcer l'autonomie des femmes dans le monde.</li>" +
         "<li>Fondation Option B : Prône la résilience et le dépassement de l'adversité.</li>";
@@ -159,23 +159,23 @@ if (language === "fr") {
     
             // Lists
             document.getElementById("educationList").innerHTML =
-                "<li>1987-1991 : Harvard College, Licenciatura en Economía.</li>" +
-                "<li>1993-1995 : Harvard Business School, MBA.</li>";
+                "<li id='en'>1987-1991 : Harvard College, Licenciatura en Economía.</li>" +
+                "<li id='en'>1993-1995 : Harvard Business School, MBA.</li>";
             document.getElementById("certificatesList").innerHTML =
-                '<li>Certificación Lean In Leadership - Desarrollo de liderazgo</li>' +
-                '<li>Forbes y Time Magazine - Varias distinciones y premios honoríficos</li>';
+                '<li id="en">Certificación Lean In Leadership - Desarrollo de liderazgo</li>' +
+                '<li id="en">Forbes y Time Magazine - Varias distinciones y premios honoríficos</li>';
             document.getElementById("skillsList").innerHTML =
-                "<li>Estrategia empresarial y liderazgo.</li>" +
-                "<li>Creación de equipos y desarrollo organizacional.</li>" +
-                "<li>Oratoria y defensa.</li>" +
-                "<li>Publicidad y monetización de ingresos.</li>";
+                "<li id='en'>Estrategia empresarial y liderazgo.</li>" +
+                "<li id='en'>Creación de equipos y desarrollo organizacional.</li>" +
+                "<li id='en'>Oratoria y defensa.</li>" +
+                "<li id='en'>Publicidad y monetización de ingresos.</li>";
             document.getElementById("languagesList").innerHTML =
-                '<li>Inglés <span class="circle level"></span><span class="circle level"></span><span class="circle level"></span><span class="circle level"></span><span class="circle level"></span></li>' +
-                '<li>Francés <span class="circle level"></span><span class="circle level"></span><span class="circle level"></span><span class="circle level"></span><span class="circle level-em"></span></li>' +
-                '<li>Español <span class="circle level"></span><span class="circle level"></span><span class="circle level-em"></span><span class="circle level-em"></span><span class="circle level-em"></span></li>';
+                '<li id="en">Inglés <span class="circle level"></span><span class="circle level"></span><span class="circle level"></span><span class="circle level"></span><span class="circle level"></span></li>' +
+                '<li id="en">Francés <span class="circle level"></span><span class="circle level"></span><span class="circle level"></span><span class="circle level"></span><span class="circle level-em"></span></li>' +
+                '<li id="en">Español <span class="circle level"></span><span class="circle level"></span><span class="circle level-em"></span><span class="circle level-em"></span><span class="circle level-em"></span></li>';
             document.getElementById("projectsList").innerHTML =
-                "<li>Movimiento Lean In: Empoderando a las mujeres en todo el mundo.</li>" +
-                "<li>Fundación Option B: Promoviendo la resiliencia y el poder de superar la adversidad.</li>";
+                "<li id='en'>Movimiento Lean In: Empoderando a las mujeres en todo el mundo.</li>" +
+                "<li id='en'>Fundación Option B: Promoviendo la resiliencia y el poder de superar la adversidad.</li>";
 }
 else{
     // Titles
@@ -256,9 +256,9 @@ else{
         "<li>Public Speaking and Advocacy.</li>" +
         "<li>Advertising and Revenue Monetization.</li>";
     document.getElementById("languagesList").innerHTML = 
-        '<li>English <span class="circle level"></span><span class="circle level"></span><span class="circle level"></span><span class="circle level"></span><span class="circle level"></span></li>'+
-        '<li>French <span class="circle level"></span><span class="circle level"></span><span class="circle level"></span><span class="circle level"></span><span class="circle level-em"></span></li>'+
-        '<li>Spanish <span class="circle level"></span><span class="circle level"></span><span class="circle level-em"></span><span class="circle level-em"></span><span class="circle level-em"></span></li>';
+        '<li id="en">English <span class="circle level"></span><span class="circle level"></span><span class="circle level"></span><span class="circle level"></span><span class="circle level"></span></li>'+
+        '<li id="fr">French <span class="circle level"></span><span class="circle level"></span><span class="circle level"></span><span class="circle level"></span><span class="circle level-em"></span></li>'+
+        '<li id="sp">Spanish <span class="circle level"></span><span class="circle level"></span><span class="circle level-em"></span><span class="circle level-em"></span><span class="circle level-em"></span></li>';
     document.getElementById("projectsList").innerHTML = 
         "<li>Lean In Movement: Empowering women globally.</li>" +
         "<li>Option B Foundation: Advocating resilience and overcoming adversity.</li>";
